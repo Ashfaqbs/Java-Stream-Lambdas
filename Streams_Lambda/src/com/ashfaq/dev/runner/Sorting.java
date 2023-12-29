@@ -21,6 +21,7 @@ public class Sorting {
 		
 		sortedByNameAESC.stream().forEach(System.out::println);
 		
+		System.out.println();
 		List<User> sortedByNameDESC = ListData.listLoader().stream().sorted(Comparator.comparing(User::getfName).reversed())
 				.collect(Collectors.toList());
 		
