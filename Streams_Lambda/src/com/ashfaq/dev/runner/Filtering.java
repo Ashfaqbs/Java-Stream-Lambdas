@@ -20,6 +20,7 @@ public class Filtering {
 		        .filter(user -> "High School A".equals(user.getSchoolName()))
 		        .collect(Collectors.toList());
 
+	 System.out.println(highSchoolAUsers);
 	 
 }
 }
