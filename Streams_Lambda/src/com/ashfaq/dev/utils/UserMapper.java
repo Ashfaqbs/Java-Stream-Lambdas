@@ -17,4 +17,10 @@ public class UserMapper {
 	{
 		return new User(dto.getId(), dto.getfName(),dto.getlName(), dto.getSchoolName());
 	}
+	
+	
+	public static User maptoUserDTO(UserDTO dto)
+	{
+		return new User(dto.getId(), dto.getfName(),dto.getlName(), dto.getSchoolName());
+	}
 }
