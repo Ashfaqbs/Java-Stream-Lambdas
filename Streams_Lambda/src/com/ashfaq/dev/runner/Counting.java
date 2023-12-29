@@ -22,8 +22,7 @@ public class Counting {
 		Map<String, Long> schoolUserCount = ListData.listLoader().stream()
 		        .collect(Collectors.groupingBy(User::getSchoolName, Collectors.counting()));
 
-		
-		schoolUserCount.forEach(System.out::println);
+System.out.println(schoolUserCount);		
 		
 	}
 
