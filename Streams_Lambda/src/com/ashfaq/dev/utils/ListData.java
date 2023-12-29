@@ -34,7 +34,7 @@ public class ListData {
 		sampleUserList.add(new User(10, "Emma", "Johnson", "High School A"));
 		sampleUserList.add(new User(11, "William", "Lee", "High School B"));
 		sampleUserList.add(new User(12, "Sophia", "Martin", "High School A"));
-		sampleUserList.add(new User(13, "James", "Garcia", "High School C"));
+//		sampleUserList.add(new User(13, "James", "Garcia", "High School C"));
 //		sampleUserList.add(new User(14, "Olivia", "Davis", "High School B"));
 //		sampleUserList.add(new User(15, "Liam", "Moore", "High School A"));
 //		sampleUserList.add(new User(16, "Ava", "Rodriguez", "High School B"));
