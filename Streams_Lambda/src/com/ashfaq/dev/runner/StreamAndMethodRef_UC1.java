@@ -21,11 +21,11 @@ public class StreamAndMethodRef_UC1 {
 
 //		DTO designPattern USER -> USERDTO UserMapper::maptoUserDTO
 
-List<UserDTO> collectUserDTO = listLoader.stream().map((data)-> UserMapper.maptoUserDTO(data)).collect(Collectors.toList());
-		
-		
-	
-	
+		List<UserDTO> collectUserDTO = listLoader.stream().map((data) -> UserMapper.maptoUserDTO(data))
+				.collect(Collectors.toList());
+
+		System.out.println(collectUserDTO);
+
 	}
 
 }
