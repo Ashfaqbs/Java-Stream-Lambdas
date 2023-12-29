@@ -26,6 +26,11 @@ public class StreamAndMethodRef_UC1 {
 
 		System.out.println(collectUserDTO);
 
+		
+		
+		//Shorter Version of code using method refrence
+
+		
 	}
 
 }
