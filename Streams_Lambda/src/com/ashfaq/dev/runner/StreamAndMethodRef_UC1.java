@@ -9,6 +9,7 @@ import java.util.List;
 
 import com.ashfaq.dev.models.User;
 import com.ashfaq.dev.utils.ListData;
+import com.ashfaq.dev.utils.UserMapper;
 
 public class StreamAndMethodRef_UC1 {
 
@@ -16,9 +17,11 @@ public class StreamAndMethodRef_UC1 {
 
 		List<User> listLoader = ListData.listLoader();
 
-//		DTO designPattern USER -> USERDTO
+//		DTO designPattern USER -> USERDTO UserMapper::maptoUserDTO
 
 
+		
+		
 	
 	
 	}
