@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import com.ashfaq.dev.models.User;
 import com.ashfaq.dev.utils.ListData;
 
-public class sortedByName {
+public class Sorting {
 
 	public static void main(String[] args) {
 
