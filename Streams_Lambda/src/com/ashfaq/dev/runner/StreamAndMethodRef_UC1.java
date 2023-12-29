@@ -9,4 +9,7 @@ package com.ashfaq.dev.runner;
 
 public class StreamAndMethodRef_UC1 {
 
+	
+	
+	
 }
