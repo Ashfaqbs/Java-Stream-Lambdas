@@ -11,12 +11,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import com.ashfaq.dev.models.User;
+import com.ashfaq.dev.utils.ListData;
 
 public class Filtering {
  public static void main(String[] args) {
 	
-	 List<User> highSchoolAUsers = sampleUserList.stream()
-		        .filter(user -> "High School A".equals(user.getSchool()))
+	 List<User> highSchoolAUsers = ListData.listLoader().stream()
+		        .filter(user -> "High School A".equals(user.getSchoolName()))
 		        .collect(Collectors.toList());
 
 	 
