@@ -9,7 +9,7 @@ package com.ashfaq.dev.models;
 
 public class UserDTO {
 
-	\
+	
 	
 	
 }
