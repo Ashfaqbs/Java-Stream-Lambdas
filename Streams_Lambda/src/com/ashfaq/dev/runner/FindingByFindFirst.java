@@ -20,11 +20,13 @@ public class FindingByFindFirst {
 		        .filter(user -> user.getId() == 3)
 		        .findFirst();
 
-		System.out.println(userWithId3);
+		System.out.println(userWithId3byFindFirst);
 		
 		Optional<User> userWithId3ByFindAny =ListData.listLoader().stream()
 		        .filter(user -> user.getId() == 3)
-		        .findFirst();
+		        .findAny();
+		
+		System.out.println(userWithId3byFindFirst);
 		
 	}
 }
