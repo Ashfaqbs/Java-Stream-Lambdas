@@ -16,11 +16,15 @@ public class FindingByFindFirst {
 
 	public static void main(String[] args) {
 		
-		Optional<User> userWithId3 =ListData.listLoader().stream()
+		Optional<User> userWithId3byFindFirst =ListData.listLoader().stream()
 		        .filter(user -> user.getId() == 3)
 		        .findFirst();
 
 		System.out.println(userWithId3);
+		
+		Optional<User> userWithId3ByFindAny =ListData.listLoader().stream()
+		        .filter(user -> user.getId() == 3)
+		        .findFirst();
 		
 	}
 }
