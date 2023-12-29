@@ -9,6 +9,16 @@ package com.ashfaq.dev.models;
 
 public class UserDTO {
 
+private int id;
+	
+	private String fName; 
+
+	private String lName;
+	
+	private String schoolName;
+	
+	
+	
 	
 	
 	
