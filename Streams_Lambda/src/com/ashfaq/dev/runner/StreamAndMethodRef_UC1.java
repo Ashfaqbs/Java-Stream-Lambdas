@@ -10,6 +10,11 @@ package com.ashfaq.dev.runner;
 public class StreamAndMethodRef_UC1 {
 
 	
-	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
 	
 }
