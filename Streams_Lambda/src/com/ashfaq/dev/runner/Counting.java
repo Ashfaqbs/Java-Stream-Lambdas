@@ -19,7 +19,7 @@ public class Counting {
 				.collect(Collectors.groupingBy(User::getSchoolName, Collectors.counting()));
 
 		System.out.println();
-		schoolUserCount.keySet().forEach(data -> System.out.println(data + " " + schoolUserCount.get(data)));
+		schoolUserCount.keySet().forEach(data -> System.out.println(data + " school and count is " + schoolUserCount.get(data)));
 
 	}
 
