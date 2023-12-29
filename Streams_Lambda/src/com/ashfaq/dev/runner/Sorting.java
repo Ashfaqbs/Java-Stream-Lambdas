@@ -19,7 +19,7 @@ public class Sorting {
 		List<User> sortedByName = ListData.listLoader().stream().sorted(Comparator.comparing(User::getfName))
 				.collect(Collectors.toList());
 		
-		System.out.println(sortedByName.stream().forEach(System.out::println));
+		sortedByName.stream().forEach(System.out::println);
 
 	}
 }
