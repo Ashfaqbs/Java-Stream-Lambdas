@@ -16,10 +16,15 @@ public class Sorting {
 
 	public static void main(String[] args) {
 
-		List<User> sortedByName = ListData.listLoader().stream().sorted(Comparator.comparing(User::getfName))
+		List<User> sortedByNameAESC = ListData.listLoader().stream().sorted(Comparator.comparing(User::getfName))
 				.collect(Collectors.toList());
 		
-		sortedByName.stream().forEach(System.out::println);
+		sortedByNameAESC.stream().forEach(System.out::println);
+		
+		List<User> sortedByNameDESC = ListData.listLoader().stream().sorted(Comparator.comparing(User::getfName).reversed())
+				.collect(Collectors.toList());
+		
+		sortedByNameDESC.stream().forEach(System.out::println);
 
 	}
 }
