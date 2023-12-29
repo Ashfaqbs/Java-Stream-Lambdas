@@ -7,6 +7,6 @@
 
 package com.ashfaq.dev.runner;
 
-public class Averaging {
+public class AveragingAndSumming {
 
 }
