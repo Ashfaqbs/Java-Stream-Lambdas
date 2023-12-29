@@ -30,7 +30,9 @@ public class StreamAndMethodRef_UC1 {
 		
 		//Shorter Version of code using method refrence
 
+		List<UserDTO> collectUserDTOShorter = listLoader.stream().map(UserMapper::maptoUserDTO).toList();
 		
+		System.out.println(collectUserDTOShorter);
 	}
 
 }
