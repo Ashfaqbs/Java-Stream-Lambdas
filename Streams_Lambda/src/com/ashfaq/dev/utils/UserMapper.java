@@ -19,8 +19,8 @@ public class UserMapper {
 	}
 	
 	
-	public static User maptoUserDTO(UserDTO dto)
+	public static UserDTO maptoUserDTO( User user)
 	{
-		return new User(dto.getId(), dto.getfName(),dto.getlName(), dto.getSchoolName());
+		return new UserDTO(user.getId(), user.getfName(),user.getlName(), user.getSchoolName());
 	}
 }
