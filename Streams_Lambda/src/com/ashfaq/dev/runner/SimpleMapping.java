@@ -21,7 +21,7 @@ public class SimpleMapping {
 		        .map(User::getfName)
 		        .collect(Collectors.toList());
 
-		
+		System.out.println(userNames);
 	}
 	
 }
