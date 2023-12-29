@@ -26,7 +26,7 @@ public class FindingByFindFirst {
 		        .filter(user -> user.getId() == 3)
 		        .findAny();
 		
-		System.out.println(userWithId3byFindFirst);
+		System.out.println(userWithId3ByFindAny);
 		
 	}
 }
