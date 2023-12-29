@@ -18,6 +18,8 @@ public class sortedByName {
 
 		List<User> sortedByName = ListData.listLoader().stream().sorted(Comparator.comparing(User::getfName))
 				.collect(Collectors.toList());
+		
+		System.out.println(sortedByName);
 
 	}
 }
