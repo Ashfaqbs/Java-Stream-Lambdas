@@ -20,12 +20,17 @@ public class AveragingAndSumming {
 		        .mapToInt(user -> user.getfName().length())
 		        .average()
 		        .orElse(0.0);
+		System.out.println(averageFirstNameLength);
 
 		
-		int sumOfUserIds = sampleUserList.stream()
+		int sumOfUserIds = ListData.listLoader().stream()
 		        .mapToInt(User::getId)
 		        .sum();
 
+		
+		
+		System.out.println(sumOfUserIds);
+		
 		
 	}
 }
