@@ -17,9 +17,10 @@ public class StreamAndMethodRef_UC1 {
 		List<User> listLoader = ListData.listLoader();
 
 //		DTO designPattern USER -> USERDTO
-		
-		
 
+
+	
+	
 	}
 
 }
