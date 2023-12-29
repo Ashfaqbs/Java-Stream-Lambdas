@@ -23,6 +23,7 @@ public class Counting {
 		        .collect(Collectors.groupingBy(User::getSchoolName, Collectors.counting()));
 
 		
+		schoolUserCount.forEach(System.out::println);
 		
 	}
 
