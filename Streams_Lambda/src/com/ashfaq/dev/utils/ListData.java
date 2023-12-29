@@ -29,7 +29,6 @@ public class ListData {
 		sampleUserList.add(new User(2, "Jane", "Smith", "High School B"));
 		sampleUserList.add(new User(3, "Bob", "Johnson", "High School A"));
 
-		// Adding 42 more real-looking users
 		sampleUserList.add(new User(9, "David", "Jones", "High School C"));
 		sampleUserList.add(new User(10, "Emma", "Johnson", "High School A"));
 		sampleUserList.add(new User(11, "William", "Lee", "High School B"));
