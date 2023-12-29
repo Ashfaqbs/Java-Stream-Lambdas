@@ -22,7 +22,7 @@ public class GrouppingBy {
 		List<User> listLoader = ListData.listLoader();
 		
 		
-		Map<String, List<User>> collect = listLoader.stream().collect(Collectors.groupingBy(User::getSchoolName));
+		Map<String, List<User>> collect = listLoader.stream().collect(Collectors.groupingBy(User::getSchoolName)); 
 		
 		
 		System.out.println(collect);
