@@ -16,14 +16,14 @@ public class ListData {
 
 		List<User> sampleUserList = new ArrayList<>();
 
-		sampleUserList.add(new User(1, "Anil", "Samal", "SchoolA"));
-		sampleUserList.add(new User(2, "Sonu", "Samal", "SchoolB"));
-		sampleUserList.add(new User(3, "Monu", "Samal", "SchoolA"));
-		sampleUserList.add(new User(4, "Monty", "Samal", "SchoolC"));
-		sampleUserList.add(new User(5, "Chintu", "Samal", "SchoolB"));
-		sampleUserList.add(new User(6, "Jony", "Samal", "SchoolA"));
-		sampleUserList.add(new User(7, "Sony", "Samal", "SchoolB"));
-		sampleUserList.add(new User(8, "Katy", "Samal", "SchoolB"));
+		sampleUserList.add(new User(1, "christiano", "Ronaldo", "SchoolA"));
+		sampleUserList.add(new User(2, "Sonu", "kumar", "SchoolB"));
+		sampleUserList.add(new User(3, "Monu", "kumar", "SchoolA"));
+		sampleUserList.add(new User(4, "Monty", "khan", "SchoolC"));
+		sampleUserList.add(new User(5, "Chintu", "kumar", "SchoolB"));
+		sampleUserList.add(new User(6, "Jony", "JR", "SchoolA"));
+		sampleUserList.add(new User(7, "Sony", "JR", "SchoolB"));
+		sampleUserList.add(new User(8, "Katy", "white", "SchoolB"));
 		
 		sampleUserList.add(new User(1, "John", "Doe", "High School A"));
 		sampleUserList.add(new User(2, "Jane", "Smith", "High School B"));
