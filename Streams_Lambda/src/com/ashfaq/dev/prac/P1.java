@@ -24,7 +24,7 @@ public class P1 {
 		Map<Boolean, List<String>> collect2 = sampleStringnames.stream()
 				.collect(Collectors.partitioningBy(s -> s.length() > 4));
 
-		System.out.println(collect2);//{false=[Sonu, Tony], true=[Chintu]}
+		System.out.println(collect2);// {false=[Sonu, Tony], true=[Chintu]}
 
 	}
 
