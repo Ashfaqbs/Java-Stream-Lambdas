@@ -41,22 +41,19 @@ public class AdvanceFiltering {
 		schoolnamesList.add("SchoolJ");
 
 //		1. filtering based on multiple single data criteria
-		ListData.listLoader().stream()
-		.filter(Objects::nonNull) // NULL FILTERING
-		.filter(user -> user.getSchoolName().equals("SchoolA"))
-		.filter(user -> user.getlName().contains("kumar"))
-		.forEach(System.out::println);
+		ListData.listLoader().stream().filter(Objects::nonNull) // NULL FILTERING
+				.filter(user -> user.getSchoolName().equals("SchoolA"))
+				.filter(user -> user.getlName().contains("kumar")).forEach(System.out::println);
 
 //		op User [id=3, fName=Monu, lName=kumar, schoolName=SchoolA]
-		
+
 		System.out.println("---------------------------------");
-		
+
 //		1. filtering based on multiple  criteria with multiple data
 		ListData.listLoader().stream().filter(Objects::nonNull) // NULL FILTERING
 				.filter(user -> idsList.contains(user.getId()))
 				.filter(user -> schoolnamesList.contains(user.getSchoolName()))
-				.filter(user -> lastnamesList.contains(user.getlName()))
-				.forEach(System.out::println);
+				.filter(user -> lastnamesList.contains(user.getlName())).forEach(System.out::println);
 
 //		op 
 

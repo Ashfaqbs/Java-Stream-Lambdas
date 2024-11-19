@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Optional;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -21,6 +22,9 @@ public class MostRepeatedchar {
 
 		Set<Entry<Character, Long>> entrySet = collect.entrySet();
 
+		Optional<Entry<Character, Long>> max = entrySet.stream().max(Comparator.comparing(Map.Entry::getValue));
+
+		System.out.println(max + " is the max");
 //		System.out.println(entrySet);
 //		[q=1, a=3, j=2, k=1, l=1]
 
