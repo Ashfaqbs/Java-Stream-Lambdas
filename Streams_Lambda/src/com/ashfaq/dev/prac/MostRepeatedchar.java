@@ -42,6 +42,14 @@ public class MostRepeatedchar {
 		Entry<Character, Long> entry = entrySet.stream().filter(c -> c.getValue().equals(long1)).findFirst().get();
 		System.out.println(entry);
 
+		// Rough
+
+		Optional<Entry<Character, Long>> maxRepeatedChar = dataString.chars().mapToObj(x -> (char) x)
+				.collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream()
+				.max(Comparator.comparing(Map.Entry::getValue));
+
+		System.out.println(maxRepeatedChar);
+
 	}
 
 }

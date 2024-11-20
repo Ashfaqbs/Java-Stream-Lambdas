@@ -1,6 +1,6 @@
 package com.ashfaq.dev.prac;
 
-public class Test {
+public class StrToInt {
 
 	static int strToInt(String data) {
 		if (data.length() <= 0)
