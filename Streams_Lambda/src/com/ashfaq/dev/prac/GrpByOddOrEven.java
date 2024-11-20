@@ -22,6 +22,11 @@ public class GrpByOddOrEven {
 
 		System.out.println(collect);
 
+		Map<Boolean, List<Integer>> collect2 = Arrays.stream(arr).boxed()
+				.collect(Collectors.partitioningBy((d) -> d % 2 == 0));
+
+		System.out.println(collect2);
+
 	}
 
 }
