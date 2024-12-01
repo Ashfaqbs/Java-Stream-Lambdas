@@ -10,6 +10,7 @@ public class Sum {
 
 		int sum = x.add(1, 2);
 		System.out.println(sum);
+
 	}
 }
 
