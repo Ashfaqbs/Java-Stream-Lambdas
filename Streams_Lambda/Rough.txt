@@ -54,5 +54,5 @@
 // IO and File Processing: Performing operations on files or processing data from I/O streams.
 // The Java Stream API is a versatile tool that provides a concise and expressive way to manipulate and process data. By leveraging its various operations and techniques, you can write cleaner, more readable, and more maintainable code.
 
-// Note: The examples provided in each scenario are not exhaustive and serve as a starting point to understand the concepts and syntax. For more detailed information and advanced use cases, refer to the Java documentation or dedicated resources on the Java Stream API. 
+// Note: The examples provided in each scenario are not exhaustive and serve as a starting point to understand the concepts and syntax. For more detailed information and advanced use cases, refer to the Java documentation or dedicated resources on the Java Stream API.
   
